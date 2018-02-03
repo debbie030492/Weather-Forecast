@@ -1,0 +1,135 @@
+body{
+    background-image:url("../images/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+    background-color: #D6E2F3;
+}
+
+h2{
+    width:60%;
+    margin:auto;
+    text-align: center;
+    font-size:2em;
+    padding-top:2%;
+    color:white;
+}
+
+h3{
+    width:100%;
+    text-align: center;
+    font-size:1.6em;
+    margin-top:2%;
+    margin-bottom:4%;
+    color:white;
+}
+
+p{
+    font-size:0.8em;
+    margin-bottom:3%;
+}
+
+img{
+    height:5em;
+    width:5em;
+}
+
+.cities{
+    padding-top:3%;
+    width:95%;
+    margin:auto;
+    text-align: center;
+    height : 20em;
+}
+.city1, .city2, .city3, .city4{
+    display: inline-block;
+    vertical-align:top;
+    padding-right:5%;
+    padding-left:5%;
+    width:20%;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    text-align:center;
+    height:19em;
+    background-color:white;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 800px) {
+    .city3, .city4{
+        display:none;
+    }
+
+    .city1, .city2{
+        width:40%;
+    }
+
+    .block{
+        width: 100% !important;
+    }
+
+    .data{
+        height:30em !important;
+    }
+    
+}
+
+.temp{
+    margin-top:5%;
+}
+
+.input{
+    padding-top:2%;
+    width:60%;
+    margin:auto;
+    text-align: center;
+}
+
+.autocomplete {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom:4%;
+    opacity: 0.6;
+}
+
+.autocompleteinput{
+    width:100% !important;
+}
+
+.easy-autocomplete{
+    width:100% !important
+  }
+  
+  .easy-autocomplete input{
+    width: 100%;
+  }
+
+.data{
+    padding-top:3%;
+    margin:auto;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    background-color:white;
+    opacity: 0.7;
+    height:12em;
+    width:95%;
+}
+
+.datas{
+    font-size:1.2em;
+    margin-bottom:1%;
+    text-align:center;
+}
+
+.block{
+    display: inline-block;
+    vertical-align:middle;
+    padding-right:5%;
+    padding-left:5%;
+    width:16%;
+}
+
+.cityname{
+    font-size:1em;
+}

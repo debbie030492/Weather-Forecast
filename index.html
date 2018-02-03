@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title>Moveo Amazing Weather App</title>
+        <meta name = "description" content = "Deborah Frija App">
+        <meta name = "author" content = "Deborah">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="images/icon.jpg">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="autocomplete/easy-autocomplete.min.css"> 
+        <link rel="stylesheet" href="autocomplete/easy-autocomplete.themes.min.css"> 
+        <link rel = "stylesheet" href = "css/style.css">
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="autocomplete/jquery.easy-autocomplete.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h2>Current weather in some of the biggest cities of the world</h2>
+        <div class="cities">
+            <div class="city1">
+                <p class="cityname" id="city1location"></p>
+                <p id="city1icon"></p>
+                <p id="city1weatherstate">Loading...</p>
+                <p class="temp" id="city1temp"></p>
+                <p id="city1humidity"></p>
+                <p id="city1wind"></p>
+            </div>
+            <div class="city2">
+                <p class="cityname" id="city2location"></p>
+                <p id="city2icon"></p>
+                <p id="city2weatherstate">Loading...</p>
+                <p class="temp" id="city2temp"></p>
+                <p id="city2humidity"></p>
+                <p id="city2wind"></p>
+            </div>
+            <div class="city3">
+                <p class="cityname" id="city3location"></p>
+                <p id="city3icon"></p>
+                <p id="city3weatherstate">Loading...</p>
+                <p class="temp" id="city3temp"></p>
+                <p id="city3humidity"></p>
+                <p id="city3wind"></p>
+            </div>
+            <div class="city4">
+                <p class="cityname" id="city4location"></p>
+                <p id="city4icon"></p>
+                <p id="city4weatherstate">Loading ...</p>
+                <p class="temp" id="city4temp"></p>
+                <p id="city4humidity"></p>
+                <p id="city4wind"></p>
+            </div>   
+        </div>
+        <div class="input">
+            <h3>Looking for another city ? </h3>
+            <div class="autocompleteinput" style="width:100%;">
+                <input class="autocomplete" id="autocomplete" style="width:100%;">
+            </div>
+        </div>
+        <div class="data">
+            <div class="block">
+                <p class="datas" id="searchedlocation"></p>
+            </div>
+            <div class="block">
+                <p class="datas" id="searchedicon"></p>
+            </div>
+            <div class="block">
+                <p class="datas" id="searchedweatherstate"></p>
+            </div>
+            <div class="block">
+                <p class="datas" id="searchedtemp"></p>
+            </div>
+            <div class="block">
+                <p class="datas" id="searchedhumidity"></p>
+            </div>
+            <div class="block">
+                <p class="datas" id="searchedwind"></p>
+            </div>
+        </div>
+        <br/><br/>
+        <footer id="main-footer" class="add-padding border-top-color2">
+            <p class="text-center">&copy; 2017 - Deborah Frija</p>
+        </footer>
+        
+        <script src = "js/main.js"></script>
+    </body>
+</html>
